@@ -10,7 +10,7 @@
 // how many grains were on each square, and
 // the total number of grains
 
-const chestboard = () => {
+const chessboard = () => {
     let numberOfSquere = 64;
     let numberOfGrains = "";
     let grainOnEachSquere = "0";
@@ -20,13 +20,10 @@ const chestboard = () => {
         grainOnEachSquere = Math.pow(2, i);
         console.log("numberOfGrainsInSquere" + " " + i + " : " + grainOnEachSquere + "\n");
         totalGrains += grainOnEachSquere;
-     
-
     }
     console.log("Total Grains in 64 squeres: " + totalGrains);
 }
-
-chestboard();
+chessboard();
 
 // class  Chestboard {
 //     constructor(NumberOfSquere) {
