@@ -15,7 +15,7 @@ const chessboard = () => {
     let numberOfGrains = "";
     let grainOnEachSquere = "0";
     let totalGrains = 0;
-
+    
     for(let i= 1; i<=numberOfSquere; i++) {
         grainOnEachSquere = Math.pow(2, i);
         console.log("numberOfGrainsInSquere" + " " + i + " : " + grainOnEachSquere + "\n");
