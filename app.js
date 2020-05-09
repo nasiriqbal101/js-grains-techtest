@@ -30,7 +30,6 @@ chessboard();
 //     constructor(NumberOfSquere) {
 //         this.NumberOfSquere= NumberOfSquere;
 //     }
-
 //     grains() {
 //         let GrainOnEachSquere = "0";
 //         let numberOfGrains= {};
