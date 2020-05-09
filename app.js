@@ -26,7 +26,6 @@ const chessboard = () => {
 chessboard();
 
 // classes
-
 // class  Chestboard {
 //     constructor(NumberOfSquere) {
 //         this.NumberOfSquere= NumberOfSquere;
